@@ -1,0 +1,81 @@
+#title-page {
+  text-align: center;
+}
+
+#action {
+  background-color: #d6d6ce;
+  color: #0f425c;
+  padding: 50px 0;
+}
+
+#action p {
+  font-size: 26px;
+  text-align: justify;
+}
+
+#schedule {
+  background-color: #8f3931;
+  color: white;
+  padding: 30px 0;
+}
+
+#schedule ul {
+  list-style: none;
+}
+
+#schedule ul li {
+  padding: 4px 0;
+  font-size: 1.2em;
+}
+
+#schedule h1 {
+  color: white;
+  text-align: center;
+}
+
+
+#location {
+  background-color: #5b8fa8;
+  padding: 30px 0;
+}
+
+#location h1 {
+  text-align: center;
+}
+
+#location h1, #location p, #location a {
+  color: #350e20;
+}
+
+#location a {
+  text-decoration: underline;
+}
+
+
+#partners {
+  background-color: #d6d6ce;
+}
+
+#partners h2 {
+  text-align: center;
+  color: #0f425c;
+}
+
+
+.sponsor img {
+  max-width: 75%;
+  max-height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#faq-page {
+  background-color: #725663;
+  color: white;
+}
+
+#faq-page h1 {
+  color: white;
+  text-align: center;
+}
