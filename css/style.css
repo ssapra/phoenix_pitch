@@ -95,3 +95,12 @@ ul, li {
   background: #8f3931;
   color: #fff;
 }
+
+#faq-page h3 {
+  color: white;
+  font-weight: bold;
+}
+
+#faq-page p {
+  color: #D6D6CE;
+}
