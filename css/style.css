@@ -1,5 +1,13 @@
 html, body, p { font-family: 'ProximaNova-Regular'; }
 
+p {
+  font-size: 1.3em;
+}
+
+ul, li {
+  font-size: 1.1em
+}
+
 #title-page {
   text-align: center;
 }
@@ -20,7 +28,6 @@ html, body, p { font-family: 'ProximaNova-Regular'; }
 }
 
 #action p {
-  font-size: 26px;
   text-align: justify;
 }
 
@@ -38,7 +45,6 @@ html, body, p { font-family: 'ProximaNova-Regular'; }
 
 #schedule ul li {
   padding: 4px 0;
-  font-size: 1.2em;
 }
 
 #schedule h1,
