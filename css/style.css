@@ -62,6 +62,18 @@ ul, li {
   margin: 0 auto;
 }
 
+.team-member img {
+  margin: 0 auto;
+  display: block;
+}
+.team-member p {
+  text-align: center;
+}
+.team-member p img {
+  margin:0;
+  display: inline-block;
+}
+
 .home-btn{
   font-size: 20px;
   font-weight: bold;
