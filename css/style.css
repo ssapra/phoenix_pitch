@@ -1,11 +1,11 @@
-html, body, p { font-family: 'ProximaNova-Regular'; }
+html, body, h1, h2, h3, p { font-family: 'ProximaNovaT-Thin'; }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 ul, li {
-  font-size: 1.1em
+  font-size: 1.2em
 }
 
 #title-page {
@@ -62,13 +62,11 @@ ul, li {
   margin: 0 auto;
 }
 
-
-.register-btn,
-.sponsor-btn {
+.home-btn{
   font-size: 20px;
   font-weight: bold;
   margin: 15px;
-  padding: 15px 25px;
+  padding: 10px 20px;
   margin-top:0;
   text-align: center;
   border: 0;
@@ -76,24 +74,14 @@ ul, li {
   display: inline-block;
 }
 
-.register-btn {
+.home-btn {
   color:#fff;
   background: #8f3931;
 }
-.register-btn:hover {
+.home-btn:hover {
   box-shadow: inset 0 0 0 5px #8f3931;
   background: #fff;
   color: #8f3931;
-}
-
-.sponsor-btn {
-  color:#8f3931;
-  background: #fff;
-  box-shadow: inset 0 0 0 5px #8f3931;
-}
-.sponsor-btn:hover {
-  background: #8f3931;
-  color: #fff;
 }
 
 #faq-page h3 {
@@ -103,4 +91,32 @@ ul, li {
 
 #faq-page p {
   color: #D6D6CE;
+}
+
+.full-image{
+  background-image: url('../assets/winter.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -100px;
+}
+.full-image > div{
+  position: relative;
+  top: 20%;
+}
+.logo{
+  width: 330px;
+  height: 330px;
+  margin-top: 1.0em;
+}
+.title-text{
+  font-family: 'ProximaNova-Regular';
+  font-size: 2.2875rem;
+  font-weight: bold;
+  color: #642822;
+}
+@media (max-width: 800px) {
+  .full-image {
+    background-size: cover;
+    background-position: 0 0;
+  }
 }
