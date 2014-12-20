@@ -65,6 +65,8 @@ ul, li {
 .team-member img {
   margin: 0 auto;
   display: block;
+  max-width: 200px;
+  border-radius: 100px
 }
 .team-member p {
   text-align: center;
