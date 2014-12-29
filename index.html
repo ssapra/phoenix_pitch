@@ -113,7 +113,10 @@
     </div>
 
     <div id="tbd">
-      <h1>Prizes: TBD</h1>
+      <h1>Prizes</h1>
+      <div class="row">
+        <p style="text-align: center;">Hang tight, we're still working on this!</p>
+      </div>
     </div>
 
     <div id="partners">
@@ -279,6 +282,10 @@
 
           var myLatlng = new google.maps.LatLng(41.7995119,-87.5898444);
           var mapProp = {
+            scrollwheel: false,
+            navigationControl: true,
+            mapTypeControl: true,
+            scaleControl: true,
             center: myLatlng,
             zoom: 15,
             mapTypeId: google.maps.MapTypeId.ROADMAP
